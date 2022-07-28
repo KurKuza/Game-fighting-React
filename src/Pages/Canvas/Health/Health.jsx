@@ -3,7 +3,7 @@ import styles from './Health.module.scss'
 import { useSelector } from 'react-redux'
 
 function Health() {
-	const { power, dexterity, intelligence, charisma } = useSelector(
+	const { power, dexterity, intelligence, charisma, name } = useSelector(
 		(state) => state.characteristics,
 	)
 
@@ -25,6 +25,7 @@ function Health() {
 							width: power + 100 + '%',
 						}}></div>
 				</div>
+				<div className={styles.name}>{name}</div>
 			</div>
 			{/* Enemy health */}
 			<div className={styles.health} style={{ right: 0 }}>

@@ -1,10 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-	power: 1,
-	dexterity: 5,
-	intelligence: 1,
-	charisma: 1,
+	power: 0,
+	dexterity: 0,
+	intelligence: 0,
+	charisma: 0,
+	name: 'Samurai Mack'
 }
 // Персонаж
 // power- здоровье 
@@ -44,9 +45,13 @@ export const characteristicsSlice = createSlice({
 		decrementCharisma: (state) => {
 			state.charisma -= 4
 		},
+		//name
+		setName: (state, action) => {
+			state.name = action.payload
+		},
 	},
 })
 
-export const { incrementPower, decrementPower, incrementDexterity, decrementDexterity, incrementIntelligence, decrementIntelligence, incrementCharisma, decrementCharisma } = characteristicsSlice.actions
+export const { incrementPower, decrementPower, incrementDexterity, decrementDexterity, incrementIntelligence, decrementIntelligence, incrementCharisma, decrementCharisma, setName } = characteristicsSlice.actions
 
 export default characteristicsSlice.reducer

@@ -24,3 +24,12 @@
 	bottom: 0;
 	left: 0;
 }
+.name {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	padding: 5px;
+	transform: rotate(-180deg);
+	color: #fff;
+}
