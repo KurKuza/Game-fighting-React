@@ -1,0 +1,26 @@
+.health {
+	position: absolute;
+	width: 250px;
+	transform: rotate(-180deg);
+	top: 0;
+}
+.containerHelth {
+	position: relative;
+	width: 100%;
+}
+.playerHealth {
+	position: absolute;
+	background: #f42542;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+.enemyHealth {
+	position: absolute;
+	background: #4d55de;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}

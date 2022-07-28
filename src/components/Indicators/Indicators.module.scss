@@ -1,0 +1,38 @@
+.indicators {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.indicator {
+	display: flex;
+	flex-direction: column;
+}
+.characteristic {
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 10px;
+}
+.counter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.button {
+	background-color: #4caf50;
+	border: none;
+	color: white;
+	padding: 10px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 10px;
+	margin: 10px;
+	cursor: pointer;
+	transition: all 0.1s ease 0s;
+}
+.disabledButton {
+	cursor: default;
+	opacity: 0.4;
+}

@@ -1,0 +1,25 @@
+.imageBlock {
+	position: relative;
+	width: auto;
+	width: 64px;
+	height: 64px;
+}
+.image {
+	position: absolute;
+	text-align: center;
+	z-index: 1;
+	border-radius: 3px;
+}
+.imageShadow {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	right: 5%;
+	height: 100%;
+	background-size: auto;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	border-radius: inherit;
+	-webkit-filter: blur(15px);
+	filter: blur(15px);
+}
