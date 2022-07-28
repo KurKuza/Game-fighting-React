@@ -3,14 +3,14 @@ import styles from './Character.module.scss'
 import { Link } from 'react-router-dom'
 
 import Indicators from '../../components/Indicators/Indicators'
-import Image from '../../components/ImageCharacter/Image'
+import Character from '../../components/Character/Character'
 
-function Сharacter() {
+function CharacterPage() {
 	return (
 		<div className={styles.container}>
 			<div className={styles.box}>
 				<div className={styles.сontent}>
-					<Image/>
+					<Character/>
 					<Indicators />
 				</div>
 					<Link to='/game' className={styles.goGame}>
@@ -21,4 +21,4 @@ function Сharacter() {
 	)
 }
 
-export default Сharacter
+export default CharacterPage

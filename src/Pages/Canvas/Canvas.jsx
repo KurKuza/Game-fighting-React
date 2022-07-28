@@ -450,10 +450,10 @@ function Canvas() {
 
 			// player movement
 			if (keys.a.pressed && player.lastKey === 'a') {
-				player.velocity.x = -dexterity
+				player.velocity.x = -5 - dexterity
 				player.switchSprite('run')
 			} else if (keys.d.pressed && player.lastKey === 'd') {
-				player.velocity.x = dexterity
+				player.velocity.x = 5 + dexterity
 				player.switchSprite('run')
 			} else {
 				player.switchSprite('idle')

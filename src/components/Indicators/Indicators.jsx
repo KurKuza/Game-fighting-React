@@ -53,11 +53,11 @@ function Indicators() {
 					<div className={styles.characteristic}>{obj.characteristic}</div>
 					<div className={styles.counter}>
 						<button
-							disabled={Number(obj.number) === 1}
+							disabled={Number(obj.number) === 0}
 							onClick={obj.actionMinus}
 							className={cn(styles.button, {
 								// Если не активна- затемнить
-								[`${styles.disabledButton}`]: Number(obj.number) === 1,
+								[`${styles.disabledButton}`]: Number(obj.number) === 0,
 							})}>
 							-
 						</button>
