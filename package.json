@@ -1,5 +1,6 @@
 {
 	"name": "gamefighting",
+	"homepage": "https://kurkuza.github.io/Game-fighting-React",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
