@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Game-fighting-React/static/css/main.c364aedb.css",
-    "main.js": "/Game-fighting-React/static/js/main.eac4b4ae.js",
+    "main.css": "/Game-fighting-React/static/css/main.ecea4b3a.css",
+    "main.js": "/Game-fighting-React/static/js/main.51f9ff19.js",
     "static/media/background.png": "/Game-fighting-React/static/media/background.3ed950731455d7715e89.png",
     "static/media/shop.png": "/Game-fighting-React/static/media/shop.c609dd4aae9185dfa3d1.png",
     "static/media/Death.png": "/Game-fighting-React/static/media/Death.2b3515119b862cc76655.png",
     "static/media/Run.png": "/Game-fighting-React/static/media/Run.066a893541826d62751f.png",
     "index.html": "/Game-fighting-React/index.html",
-    "main.c364aedb.css.map": "/Game-fighting-React/static/css/main.c364aedb.css.map",
-    "main.eac4b4ae.js.map": "/Game-fighting-React/static/js/main.eac4b4ae.js.map"
+    "main.ecea4b3a.css.map": "/Game-fighting-React/static/css/main.ecea4b3a.css.map",
+    "main.51f9ff19.js.map": "/Game-fighting-React/static/js/main.51f9ff19.js.map"
   },
   "entrypoints": [
-    "static/css/main.c364aedb.css",
-    "static/js/main.eac4b4ae.js"
+    "static/css/main.ecea4b3a.css",
+    "static/js/main.51f9ff19.js"
   ]
 }
