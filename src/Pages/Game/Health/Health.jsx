@@ -3,7 +3,7 @@ import styles from './Health.module.scss'
 import { useSelector } from 'react-redux'
 
 function Health() {
-	const { power, dexterity, intelligence, charisma, name } = useSelector(
+	const { power, name } = useSelector(
 		(state) => state.characteristics,
 	)
 
