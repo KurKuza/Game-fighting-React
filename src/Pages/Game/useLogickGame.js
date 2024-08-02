@@ -450,7 +450,7 @@ export function useLogickGame(canvasRef) {
 		if (keys.a.pressed && player.lastKey === 'a') {
 			player.velocity.x = -5 - dexterity
 			player.switchSprite('run')
-		} else if (keys.d.pressed && player.lastKey === 'd') {
+		} else if (keys.d.pressed && player.lastKey === 68) {
 			player.velocity.x = 5 + dexterity
 			player.switchSprite('run')
 		} else {
@@ -532,9 +532,9 @@ export function useLogickGame(canvasRef) {
 	window.addEventListener('keydown', (event) => {
 		if (!player.dead) {
 			switch (event.key) {
-				case 'd':
+				case 68:
 					keys.d.pressed = true
-					player.lastKey = 'd'
+					player.lastKey = 68
 					break
 				case 'a':
 					keys.a.pressed = true
@@ -572,7 +572,7 @@ export function useLogickGame(canvasRef) {
 
 	window.addEventListener('keyup', (event) => {
 		switch (event.key) {
-			case 'd':
+			case 68:
 				keys.d.pressed = false
 				break
 			case 'a':
